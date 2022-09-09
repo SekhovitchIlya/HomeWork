@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Gallery -->
+    <div class="gallery">
+        <h3>Gallery</h3>
+        <div class="gallery_preview">
+            <span onclick="this.parentElement.style.display='none'" class="close">&times;</span>
+            <img id="img" style="width:100%">
+        </div>
+
+        <div class="gallery_thumbs">
+            <div class="mini_img">
+                <img src="img/1_800х600.jpg" alt="1" style="width:100%" onclick="gallery(this);">
+            </div>
+
+            <div class="mini_img">
+                <img src="img/2_800x600.jpg" alt="2" style="width:100%" onclick="gallery(this);">
+            </div>
+
+            <div class="mini_img">
+                <img src="img/3_800x600.jpg" alt="3" style="width:100%" onclick="gallery(this);">
+            </div>
+
+            <div class="mini_img">
+                <img src="img/4_800x600.jpg" alt="4" style="width:100%" onclick="gallery(this);">
+            </div>
+
+            <div class="mini_img">
+                <img src="img/5_800x600.jpg" alt="5" style="width:100%" onclick="gallery(this);">
+            </div>
+        </div>
+    </div>
+    <script deffer src="gallery.js" ></script>
+
+    <!-- Filter -->
+    <div class="filter" >
+        <h3>Filter</h3>
+        <div id="img_filter">
+            <button class="btn active" onclick="filter('all')">Show all</button>
+            <button class="btn" onclick="filter('cars')">Cars</button>
+            <button class="btn" onclick="filter('moto')">Motorcycles</button>
+            <button class="btn" onclick="filter('tech')">Technology</button>
+        </div>
+
+        <div class="img_list">
+            <div class="filter_list cars">
+                <img src="img/cars_1.jpg" alt="1" style="width:100%">
+            </div>
+            <div class="filter_list moto">
+                <img src="img/moto_1.jpg" alt="2" style="width:100%">
+            </div>
+            <div class="filter_list tech">
+                <img src="img/tech_1.jpg" alt="3" style="width:100%">
+            </div>
+            <div class="filter_list cars">
+                <img src="img/cars_2.jpg" alt="4" style="width:100%">
+            </div>
+            <div class="filter_list moto">
+                <img src="img/moto_2.jpg" alt="5" style="width:100%">
+            </div>
+            <div class="filter_list tech">
+                <img src="img/tech_2.jpg" alt="6" style="width:100%">
+            </div>
+            <div class="filter_list cars">
+                <img src="img/cars_3.jpg" alt="7" style="width:100%">
+            </div>
+            <div class="filter_list moto">
+                <img src="img/moto_3.jpg" alt="8" style="width:100%">
+            </div>
+            <div class="filter_list tech">
+                <img src="img/tech_3.jpg" alt="9" style="width:100%">
+            </div>
+            <div class="filter_list cars">
+                <img src="img/cars_4.jpg" alt="10" style="width:100%">
+            </div>
+          </div>
+    </div> 
+    <script deffer src="filter.js" ></script>
+
+    <!--  Accordion --> 
+    <div class="accordion">
+        <h3>Accordion</h3>
+        <button class="accordion_item">1. Lorem ipsum dolor</button>
+        <div class="accordion_title">
+            <p class="accordion_subtitle">1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis distinctio ea ipsam iusto, maxime minima optio provident quis sint.</p>
+        </div>
+
+        <button class="accordion_item">2. Lorem ipsum dolor</button>
+        <div class="accordion_title">
+            <p class="accordion_subtitle">2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis distinctio ea ipsam iusto, maxime minima optio provident quis sint.</p>
+        </div>
+        
+        <button class="accordion_item">3. Lorem ipsum dolor</button>
+        <div class="accordion_title">
+            <p class="accordion_subtitle">3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis distinctio ea ipsam iusto, maxime minima optio provident quis sint.</p>
+        </div>
+
+        <button class="accordion_item">4. Lorem ipsum dolor</button>
+        <div class="accordion_title">
+            <p class="accordion_subtitle">4. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis distinctio ea ipsam iusto, maxime minima optio provident quis sint.</p>
+        </div>
+
+        <button class="accordion_item">5. Lorem ipsum dolor</button>
+        <div class="accordion_title">
+            <p class="accordion_subtitle">5. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur debitis distinctio ea ipsam iusto, maxime minima optio provident quis sint.</p>
+        </div>
+    </div>
+    <script deffer src="accordion.js" ></script>
+</body>
+</html>

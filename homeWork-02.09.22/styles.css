@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+    color: darkslategray;
+    margin-bottom: 20px;
+}
+
+/*Gallery*/
+.gallery {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.gallery_thumbs {
+    text-align: center;
+}
+
+.mini_img {
+    display: inline-block;
+    width: 18%;  
+}
+
+.gallery_preview {
+    position: relative;
+    display: none;
+}
+
+.close {
+    cursor:pointer;
+    position: absolute;
+    color: white;
+    right: 15px;
+    top: 10px;
+    font-size: 40px;
+}
+
+/*Filter*/
+.img_list {
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+#img_filter {
+    margin-left: 11.3%;
+}
+
+.filter_list {
+    float: left;
+    margin-left: 10px;
+    color: #ffffff;
+    width: 18%;
+    line-height: 25px;
+    display: none; 
+}
+
+.show {
+    display: block;
+}
+
+.btn {  
+    margin-bottom: 2%;
+    background-color: #ededed;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/*Accordion*/
+.accordion, .gallery, .filter {
+    width: 50%;
+    padding: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border: 1px solid darkslategray; 
+}
+
+.accordion_item {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 2%;
+    text-align: center;
+    border: 1px solid darkslategray;
+    background-color: #ededed;
+    color: darkslategray;
+    transition: 0.2s;      
+}
+
+.active, .accordion_item:hover {
+    background-color: #ccc; 
+}
+
+.accordion_title {
+    padding: 0 18px; 
+    overflow: hidden;     
+    display: none;  
+}
+
+.accordion_subtitle {
+    color: darkslategray;
+    margin-bottom: 5%;
+}
