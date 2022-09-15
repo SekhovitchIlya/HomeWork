@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="quizApp">
+
+      <div class="question_block" id="question_block">
+        <p id="question">Which language runs in a web browser?</p>        
+      </div>
+
+      <div id="rezult_block">
+        <p id="rezult">rezult</p>        
+      </div>
+
+      <div class="answers_block" id="answers_block">
+
+        <div class="group">
+          <input id="a" type="radio" name="answer">
+          <p id="answ_a">Java</p>
+        </div>
+        
+        <div class="group">
+          <input id="b" type="radio" name="answer">
+          <p id="answ_b">C</p>
+        </div>
+        
+        <div class="group">
+          <input id="c" type="radio" name="answer">
+          <p id="answ_c">Python</p>
+        </div>
+        
+        <div class="group">
+          <input id="d" type="radio" name="answer">
+          <p id="answ_d">JavaScript</p>  
+        </div>
+        
+      </div>
+
+      <button class="btn" id="btn">Submit</button>
+      <button class="btn_reload" id="btn_reload">Reload</button>
+
+    </div>
+    <script defer src="script.js" ></script> 
+  </body>
+</html>
