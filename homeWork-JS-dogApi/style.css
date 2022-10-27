@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 735px;
+    padding-top: 100px ;
+    display: block;
+    background: rgb(236, 234, 234);
+    text-align: center;
+    justify-content: center;
+}
+
+.select_dog {
+    width: 400px;
+    margin: 0 auto 1em auto;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
